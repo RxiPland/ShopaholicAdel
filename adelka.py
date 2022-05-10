@@ -2,6 +2,7 @@ from scrapetube import get_channel
 from pyperclip import copy
 from os import system
 from webbrowser import open_new_tab
+from time import sleep
 
 def clear_obrazovku():
 
@@ -52,6 +53,13 @@ def main():
     if konec == "K":
 
         copy(url)
+
+        print("\nURL byla uložena do schránky")
+
+        for i in reversed(range(3)):
+
+            print("Zavřu program za", i+1)
+            sleep(1)
 
     elif konec == "O":
 
