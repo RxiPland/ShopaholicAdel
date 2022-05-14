@@ -3,11 +3,12 @@
 ![d01bcb9e997c0e6876ae69b4a2e6814a (1)](https://user-images.githubusercontent.com/82058894/167687453-8381a78a-f9c8-4086-b077-2ce326075fd7.png)
 ![d01bcb9e997c0e6876ade69b4a2e6814](https://user-images.githubusercontent.com/82058894/167688184-be9bdfc0-6c62-4aa9-bb39-901c5c7db88f.png)
 #
-https://www.youtube.com/c/shopaholicadelYoutuberka30
+https://www.youtube.com/channel/UCSCbqi3AZ_JCdnubIUZZ_jw
 #
 
 # Náhled:
-![screen1](https://user-images.githubusercontent.com/82058894/168433405-d8d9022b-4b84-4c8c-a718-a9097a89145e.png)
+![screen1](https://user-images.githubusercontent.com/82058894/168434551-5f4ae3a6-0ee3-4540-83de-f8197dc0dad2.png)
+
 
 
 # Použité knihovny:
