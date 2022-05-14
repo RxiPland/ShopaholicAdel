@@ -7,7 +7,7 @@ https://www.youtube.com/c/shopaholicadelYoutuberka30
 #
 
 # Náhled:
-![screnn1](https://user-images.githubusercontent.com/82058894/168433041-14e3e304-94ef-433b-988c-cd1855ef4aa9.png)
+![screen1](https://user-images.githubusercontent.com/82058894/168433405-d8d9022b-4b84-4c8c-a718-a9097a89145e.png)
 
 
 # Použité knihovny:
