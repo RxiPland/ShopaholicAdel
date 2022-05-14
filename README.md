@@ -5,6 +5,11 @@
 #
 https://www.youtube.com/c/shopaholicadelYoutuberka30
 #
+
+# Náhled:
+![screnn1](https://user-images.githubusercontent.com/82058894/168433041-14e3e304-94ef-433b-988c-cd1855ef4aa9.png)
+
+
 # Použité knihovny:
 ```
 pip install pyperclip
