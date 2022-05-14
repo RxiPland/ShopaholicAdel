@@ -12,7 +12,9 @@ def main():
 
     clear_obrazovku()
 
-    videos = get_channel("UCSCbqi3AZ_JCdnubIUZZ_jw", sort_by='newest')      # adela youtube ID --> UCSCbqi3AZ_JCdnubIUZZ_jw
+    CHANNEL_ID = "UCSCbqi3AZ_JCdnubIUZZ_jw"      # adela youtube ID --> UCSCbqi3AZ_JCdnubIUZZ_jw
+
+    videos = get_channel(CHANNEL_ID, sort_by='newest')
 
     for video in videos:
 
@@ -57,7 +59,7 @@ def main():
     print()
 
 
-    konec = input("\n[K]opírovat URL\n[O]tevřít v prohlížeči\n[E]xit\n\n").upper()
+    konec = input("\n[K]opírovat URL\n[O]tevřít v prohlížeči\n[Y]outube kanál\n[E]xit\n\n").upper()
 
     if konec == "K":
 
@@ -73,6 +75,10 @@ def main():
     elif konec == "O":
 
         open_new_tab(url)
+
+    elif konec == "Y":
+
+        open_new_tab("https://www.youtube.com/channel/" + CHANNEL_ID)
 
     else:
 
