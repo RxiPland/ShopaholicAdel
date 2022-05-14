@@ -78,7 +78,7 @@ def main():
 
     elif konec == "Y":
 
-        open_new_tab("https://www.youtube.com/channel/" + CHANNEL_ID)
+        open_new_tab("https://www.youtube.com/channel/" + CHANNEL_ID + "/videos")
 
     else:
 
