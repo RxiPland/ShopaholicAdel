@@ -7,9 +7,7 @@ https://www.youtube.com/channel/UCSCbqi3AZ_JCdnubIUZZ_jw
 #
 
 # Náhled:
-![screen1](https://user-images.githubusercontent.com/82058894/168434551-5f4ae3a6-0ee3-4540-83de-f8197dc0dad2.png)
-
-
+![screen](https://user-images.githubusercontent.com/82058894/168436714-7c40224c-9a1c-4482-94c0-52edcb7867ef.png)
 
 # Použité knihovny:
 ```
