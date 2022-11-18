@@ -14,11 +14,13 @@ def main():
 
     CHANNEL_ID = "UCSCbqi3AZ_JCdnubIUZZ_jw"      # adela youtube ID --> UCSCbqi3AZ_JCdnubIUZZ_jw
 
-    videos = get_channel(CHANNEL_ID, sort_by='newest')
+    #videos = get_channel(CHANNEL_ID, sort_by='newest')
+    videos = get_channel(channel_url="https://www.youtube.com/c/shopaholicadelYoutuberka30", sort_by='newest')
 
     for video in videos:
-
+        
         break
+
         
     video_id = str(video['videoId'])
     nazev_videa = str(video['title']['runs'][0]['text'])
@@ -38,7 +40,7 @@ def main():
 
     if posledni == video_id:
 
-        url = "https://www.youtube.com/watch?v=" + video_id + posledni
+        url = "https://www.youtube.com/watch?v=" + posledni
 
         print("Žádné nové video.\n\nStaré: " + url + "\n")
 
@@ -59,7 +61,7 @@ def main():
     print()
 
 
-    konec = input("\n[K]opírovat URL\n[O]tevřít v prohlížeči\n[Y]outube kanál\n[E]xit\n\n").upper()
+    konec = input("\n[K]opírovat URL\n[O]tevřít v prohlížeči\n[Y]outube kanál\n[M]armot\n[E]xit\n\n").upper()
 
     if konec == "K":
 
@@ -80,11 +82,19 @@ def main():
 
         open_new_tab("https://www.youtube.com/channel/" + CHANNEL_ID + "/videos")
 
+    elif konec == "M":
+
+        copy("oh yeah mr " + nazev_videa + " " + vydani_videa_cas)
+
+        print("\nMarmot byl uložen do schránky")
+
+        for i in reversed(range(3)):
+
+            print("Zavřu program za", i+1)
+            sleep(1)
+
     else:
 
         pass
 
 main()
-
-
-
